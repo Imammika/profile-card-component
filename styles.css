@@ -1,0 +1,61 @@
+body {
+    background: url(images/bg-pattern-top.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    width: 350px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.profile-container {
+    background: url(images/bg-pattern-card.svg);
+    width: 350px;
+    text-align: center;
+    height: 160px;
+    margin: 50px auto 0;
+    padding: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile img {
+    border-radius: 100%;
+    margin: -50px;
+    border: 5px solid white;
+}
+
+.profile h1 {
+    margin: 50px auto;
+    font-size: 1.4rem;
+    width: 200px;
+}
+
+.profile span {
+    opacity: 0.6;
+    font-size: 1.1rem;
+}
+
+hr {
+    background-color: hsl(0, 0%, 59%);
+    opacity: 0.7;
+}
+
+.vanity {
+    display: flex;
+}
+
+.vanity h2 {
+    font-size: 1.2rem;
+    padding: 0 30px;
+}
+
+.vanity span {
+    font-size: 0.9rem;
+    color:  hsl(0, 0%, 59%);
+}
